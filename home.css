@@ -1,0 +1,104 @@
+.body {
+  font-family: "Arial";
+  
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.select-blogs {
+  background-color: #eeece6;
+  font-family: "Arial";
+}
+
+.col-md {
+  position: fixed;
+  right: 50%;
+}
+
+a.nav-link {
+  margin: 10px auto 10px auto;
+}
+
+h1.display-4 {
+  text-align: center;
+  width: 300px;
+  margin: 10px auto 10px auto;
+  font-family: "Arial";
+}
+
+p.lead {
+  text-align: center;
+  width: 300px;
+  margin: 10px auto 10px auto;
+}
+
+h3 {
+  text-align: center;
+  margin: 10px auto 10px auto;
+}
+
+h4 {
+  padding: 0px 20px 0px 20px;
+  font-family: "Arial";
+}
+
+p {
+  text-align: center;
+  margin: 10px auto 10px auto;
+}
+
+a {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  font-family: 'Arial';
+  font-size: 10%;
+
+  margin: 10px auto 10px auto;
+  padding-top: 10px;
+}
+
+.card-body {
+  text-align: center;
+  margin:10px auto 10px auto;
+}
+
+.pageButton {
+
+  /* Border */
+  border: 2px solid white;
+  border-radius: 2px;
+
+  /* Color & Text */
+  color: white;
+  background-color: #FF0048;
+
+  font-family: "Arial";
+  letter-spacing: 1px;
+  text-decoration: none;
+
+  /* Position & Spacing */
+  margin: -20px -50px;
+  top:50%;
+  left:50%;
+
+  /* Misc. */
+  cursor: pointer;
+
+}
+
+.carousel-item {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

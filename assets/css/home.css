@@ -1,0 +1,57 @@
+
+ /*body*/
+
+.body {
+  font-family: "Arial";
+}
+
+.col-md {
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+
+a.nav-link {
+  margin: 10px auto 10px auto;
+}
+
+h1.display-4 {
+  text-align: center;
+  width: 300px;
+  margin: 10px auto 10px auto;
+}
+
+p.lead {
+  text-align: center;
+  width: 300px;
+  margin: 10px auto 10px auto;
+}
+
+.button {
+  text-align: center;
+  margin: 10px auto 10px auto;
+}
+
+h3 {
+  text-align: center;
+  margin: 10px auto 10px auto;
+}
+
+h4 {
+  padding: 0px 20px 0px 20px;
+}
+
+p {
+  text-align: center;
+  margin: 10px auto 10px auto;
+}
+
+.card-body {
+  text-align: center;
+  margin:10px auto 10px auto;
+}
+
+.bloglist {
+   padding: 0px 20px 0px 20px;
+   text-align: left;
+}

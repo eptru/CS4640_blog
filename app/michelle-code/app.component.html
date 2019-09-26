@@ -1,0 +1,107 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content=""> <!-- for search optimization -->
+  <meta name="author" content="Michelle Lovering">
+  <meta name="description" content="">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="assets/header.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <title></title>
+  <!-- redirects go here -->
+</head>
+
+
+<header class="header">
+
+  <!-- Label in the header on the left -->
+  <!-- <a class="headerLabel" href="index.html">omega</a> -->
+  <a routerLink="homepage" routerLinkActive="active">
+     <img class="headerImage" src="assets/images/logo.png" alt="Omega" height="30" width="100">
+  </a>
+
+  <!-- Login button -->
+	<button id="loginButtonID" class="headerButton headerLoginButton" (click)="loginPopupFunc()">LOGIN</button>
+
+	<!-- Sign-up button -->
+	<button id="signupButtonID" class="headerButton headerSignupButton" (click)="signupPopupFunc()">SIGN UP</button>
+
+</header>
+
+<!-- Login popup container -->
+<div id="loginPopupID" class="popup loginPopup">
+
+	<div style="font-size:22px">Log in</div>
+
+	<hr class="popupHorizontalLine">
+
+	<!-- Username text and input textbox -->
+	<div class="popupLabelText">Email:</div>
+	<input required type="email" id="loginEmailInput" />
+
+	<!-- Password text and input textbox -->
+	<div class="popupLabelText">Password:</div>
+	<input required type="password" id="loginPasswordInput" style="margin-bottom: 10px"/>
+
+	<div id="loginEmailError" class="popupErrorText">Not a valid Email</div>
+	<div id="loginPasswordError" class="popupErrorText">Incorrect Email or Password</div>
+
+	<!-- Error buffer that ensures a constant 10px seperation between the submit button and any element -->
+	<div id="loginErrorBuffer" class="popupErrorText" style="visibility: hidden; font-size: 10px">Break</div>
+
+	<!-- Submit Button -->
+	<button class="popupSubmitButton" (click)="submitLogin()">Submit</button>
+
+	<!-- Text asking the user to sign up -->
+	<div style="margin-top: 10px" class="popupGenericText">Don't have an account?</div>
+	<div class="popupGenericText">Click here to <span class="popupTextButton" (click)="signupPopupFunc()"> Sign up</span></div>
+</div>
+
+<!-- Sign up popup container -->
+<div id="signupPopupID" class="popup signupPopup">
+
+	<div style="font-size:22px">Sign up</div>
+
+	<hr class="popupHorizontalLine">
+
+	<div class="popupLabelText">Email:</div>
+	<input required type="email" id="signupEmailInput" />
+
+	<div class="popupLabelText">Username:</div>
+	<input required type="text" id="signupUsernameInput" />
+
+	<!-- Password text and input textbox -->
+	<div class="popupLabelText">Password:</div>
+	<input required type="password" id="signupPasswordInput" />
+
+	<div class="popupLabelText">Confirm Password:</div>
+	<input required type="password" id="signupPasswordConfirmInput" style="margin-bottom: 10px" />
+
+	<!-- Radio Button for terms and conditions -->
+	<!-- <input type="radio" id="radioButtonTermsAndConditions" value="agree"> -->
+	<!-- Description of terms and conditions -->
+	<!-- <span style="font-size:11px" class="popupGenericText">I agree to the terms and conditions</span> -->
+
+	<div id="signupEmailError" class="popupErrorText">Not a valid Email</div>
+	<div id="signupUsernameError" class="popupErrorText">Please input a username</div>
+	<div id="signupPasswordError" class="popupErrorText">Please input a password</div>
+	<div id="signupPasswordConfirmError" class="popupErrorText">Passwords do not match</div>
+
+	<!-- Error buffer that ensures a constant 10px seperation between the submit button and any element -->
+	<div #signupErrorBuffer class="popupErrorText" style="visibility: hidden; font-size: 10px">Break</div>
+
+	<button type="submit" class="popupSubmitButton" (click)="submitSignup()">Submit</button>
+
+	<!-- Text asking the user to sign up -->
+	<div style="margin-top: 10px" class="popupGenericText">Already have an account?</div>
+	<div class="popupGenericText">Click here to <span class="popupTextButton" (click)="loginPopupFunc()">Log in</span></div>
+
+</div>
+
+
+<router-outlet></router-outlet>
+
+
+<footer>CS 4640 - Summer 2019</footer>

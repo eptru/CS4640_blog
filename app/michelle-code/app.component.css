@@ -1,0 +1,258 @@
+.header {
+
+	/* Color & Text */
+	background-color: #FF0048;
+	color: white;
+
+	/* Position & Spacing */
+	padding: 15px;
+	margin-right: -5px;
+
+}
+
+.headerLabel {
+
+	/* Color & Text */
+	color: white;
+	font-family: "Arial";
+	font-style: normal;
+	font-size: 25px;
+	text-decoration: none;
+
+	/* Position & Spacing */
+	padding-top: 10px;
+
+
+}
+
+.headerImage {
+
+	/* Color & Text */
+	color: white;
+	text-decoration: none;
+	font-family: "Arial";
+	font-style: normal;
+	font-size: 25px;
+
+	/* Position & Spacing */
+	padding-top: 7px;
+
+	/* Misc. */
+	cursor: pointer;
+
+}
+
+.headerButton {
+
+	/* Border */
+	border: 2px solid white;
+	border-radius: 2px;
+
+	/* Color & Text */
+	color: white;
+	background-color: #FF0048;
+
+	font-family: "Arial";
+	letter-spacing: 1px;
+	text-decoration: none;
+
+	/* Position & Spacing */
+	float: right;
+	padding: 5px;
+	margin-top: -5px;
+
+
+	/* Misc. */
+	cursor: pointer;
+
+}
+
+.headerSignupButton {
+
+	/* Position & Spacing */
+	margin-right: 10px;
+
+}
+
+.headerLoginButton {
+
+	/* Position & Spacing */
+	margin-right: 0px;
+
+}
+
+.headerSignupButton:hover {
+
+	/* Color & Text */
+	background-color: white;
+	color: #FF0048;
+
+}
+
+.headerLoginButton:hover {
+
+	/* Color & Text */
+	background-color: white;
+	color: #FF0048;
+
+}
+
+.pageExploreButton:hover {
+
+	/* Color & Text */
+	background-color: white;
+	color: #FF0048;
+
+}
+
+/* POP UP LOGIN/SIGN UP SECTION */
+
+.popup {
+
+	/* Border */
+	border-style: solid;
+	border-color: #FF0048;
+	padding: 12px;
+	/* border-radius: 15px; */
+
+	/* Colors & Text */
+	background-color: white;
+	font-family: Arial;
+
+	/* Display */
+	display: none;
+
+	/* Position & Spacing */
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	z-index: 10;
+
+}
+
+.loginPopup {
+
+	/* Position & Spacing */
+	width:205px;
+	/* height: 205px; */
+	/* Important Note! Margin-left should be negative half of the
+	width and an additional -10px in order for it to center
+	properly. */
+	margin-left: -90px;
+	/* Important Note! Margin-top should be half of the height in
+	order for it to center properly */
+	margin-top: -175px;
+}
+
+.signupPopup {
+
+	/* Position & Spacing */
+	width:205px;
+	/* height: 285px; */
+	/* Important Note! Margin-left should be negative half of the
+	width and an additional -10px in order for it to center
+	properly. */
+	margin-left: -90px;
+	/* Important Note! Margin-top should be half of the height in
+	order for it to center properly */
+	margin-top: -175px;
+
+}
+
+.popupLabelText {
+
+	/* Color & Text */
+	font-size: 14px;
+
+	/* Position & Spacing */
+	padding-top: 5px;
+
+}
+
+.popupGenericText {
+
+	/* Color & Text */
+	font-size: 12px;
+
+}
+
+.popupErrorText {
+
+	/* Color & Text */
+	font-size: 12px;
+	color: #FF0048;
+
+	/* Display */
+	display: none;
+
+}
+
+.popupTextButton {
+
+	/* Color & Text */
+	color: #FF0048;
+
+	/* Misc. */
+	cursor: pointer;
+
+}
+
+.popupSubmitButton {
+
+	/* Border */
+	border: 1px solid #FF0048;
+	border-radius: 2px;
+
+	/* Color & Text */
+	color: #FF0048;
+	background-color: white;
+
+	font-family: "Arial";
+	letter-spacing: 1px;
+	text-decoration: none;
+
+	/* Position & Spacing */
+	padding: 5px;
+
+	/* Misc. */
+	cursor: pointer;
+
+}
+
+.popupSubmitButton:hover {
+
+	/* Color & Text */
+	color: white;
+	background-color: #FF0048;
+
+}
+
+hr.popupHorizontalLine {
+
+	/* Border */
+	border: 1px solid #FF0048;
+
+	margin-bottom: 0px;
+
+}
+
+input:required {
+
+	/* Border */
+	box-shadow:none;
+
+}
+
+input {
+
+	width: 175px;
+	height: 22px;
+
+}
+
+.show {
+
+	/* Display */
+	display: block;
+
+}

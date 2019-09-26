@@ -1,0 +1,50 @@
+<!-- Jae Kim, Michelle Lovering, Charles Ferraro -->
+
+<!-- Citations: -->
+<!-- How to differeniate between two forms
+https://stackoverflow.com/questions/11929471/how-do-i-use-two-submit-buttons-and-differentiate-between-which-one-was-used-to -->
+<!-- How to configure opacity and bluriness for a background
+https://www.w3schools.com/howto/howto_css_blurred_background.asp -->
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+	
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keywords" content=""> <!-- for search optimization -->
+		<meta name="description" content="">
+		
+		<title></title>
+		
+	</head>
+
+	<body style="overflow: hidden">
+	
+	<div [ngClass]="{textOnPage: true }" *ngIf="booleanVar == 1">List of All Users</div>
+		
+		<div [ngClass]="{mainBackground: true}">
+		<table [ngClass]="{textOnPage: true }">
+			<tr *ngFor="let user of responsedata">
+				<th>{{ user }}</th>			
+			</tr>
+		</table>
+		
+		
+	
+			<!-- <div *ngIf="getData()"></div>  -->
+			
+<!--  			<script>
+			location.href = 'http://myurl';
+			</script>  -->
+			
+		<form #urlForm="ngForm">
+		
+			<button class="btn btn-primary" [ngClass]="{headerButton: true}" [style.margin-top]="10" (click)="getData()" ng-init="clicked=true">View</button>
+ 
+		</form>
+		</div>
+	</body>
+
+</html>

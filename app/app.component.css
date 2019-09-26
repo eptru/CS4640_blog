@@ -1,0 +1,48 @@
+	
+	
+.headerButton {
+	
+	/* Border */
+	border: 3px solid white;
+	border-radius: 10px;
+	
+	/* Color & Text */
+	color: white;
+	background-color: #FF0048;
+
+	font-family: "Arial";
+	font-size: 30px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	
+	/* Position & Spacing */
+	padding: 5px;
+/* 	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);  */
+	
+	
+	
+	/* Misc. */
+	cursor: pointer;
+
+}
+
+.textOnPage {
+	
+	font-size: 40px;
+	color: #FF0048;
+	font-family: "Arial";
+/* 	left: 50%;
+	top: 40%;
+	transform: translate(-50%, -50%);  */
+	
+	
+	
+}
+
+.mainBackground {
+	
+	background-color: whites;
+	
+}

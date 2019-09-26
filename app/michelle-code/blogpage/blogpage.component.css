@@ -1,0 +1,23 @@
+.post {
+	border-style:solid;
+	border-color: #FF0048;
+	background-color: white;
+	padding-left:30px;
+	padding-right:30px;
+	margin-bottom:30px;
+
+  font-family: "Arial";
+}
+
+.post-list {
+	background-color: #eeece6;
+}
+
+.posttitle {
+	color: #FF0048;
+	margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  font-family: "Arial";
+}

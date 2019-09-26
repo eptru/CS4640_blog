@@ -1,0 +1,149 @@
+	.newPostPopup {
+		
+		/* Border */
+		border-style: solid;
+		border-color: #FF0048;
+		border-radius: 10px;
+		padding: 12px;
+		/* border-radius: 15px; */
+		
+		/* Colors & Text */
+		background-color: white;
+		font-family: Arial;
+		
+		/* Display */
+		display: none;
+		
+		/* Position & Spacing */
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 50%;
+		
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -150px;
+		width: 90%;
+		height: 500px;
+		max-width: 500px;
+		
+	}
+	
+	#postTitle {
+		
+		border: none;
+		font-size: 20px;
+		
+	}
+	
+	#postBody { 
+
+		border: none;
+
+		font-family: Arial;
+
+		height: 85%;
+		width: 100%;
+		
+		resize: none;
+
+		
+	}
+	
+	.newPostButton {
+		
+		/* Border */
+		border: 1px solid #FF0048;
+		border-radius: 2px;
+		
+		/* Color & Text */
+		background-color: #FF0048;
+		color: white;
+	
+		font-family: "Arial";
+		letter-spacing: 1px;
+		text-decoration: none;
+		
+		/* Position & Spacing */
+		padding: 5px;
+		
+		/* Misc. */
+		cursor: pointer;
+		
+	}
+	
+	#xButton {
+		
+		float: right;
+		/* border: none; */
+		color: #FF0048;
+		font-family: Arial;
+		height: 30px;
+		width: 30px;
+		font-size: 30px;
+		margin-top: -15px;
+		margin-right: -7px;
+		
+		
+	}
+	
+	.postSubmitButton {
+		
+		/* Border */
+		border: 1px solid #FF0048;
+		border-radius: 2px;
+		
+		/* Color & Text */
+		background-color: #FF0048;
+		color: white;
+	
+		font-family: "Arial";
+		letter-spacing: 1px;
+		text-decoration: none;
+		
+		/* Position & Spacing */
+		padding: 5px;
+		
+		/* Misc. */
+		cursor: pointer;
+		
+	}
+	
+	.invisibleContainer {
+		
+		border: none;
+		position: relative;
+		margin-top: 20px;
+		text-align: center;
+		
+	}
+	
+	
+	.newPostButton:hover {
+			
+		color: #FF0048;
+		background-color: white;
+		
+	}
+	
+	input:required {
+		
+		text-decoration: none;
+		
+	}
+	
+	hr.popupHorizontalLine {
+
+		/* Border */
+		border: 1px solid red;
+		background-color: red;
+
+		
+	}
+	
+	.show {
+		
+		/* Display */
+		display: block;
+		
+	}
